@@ -65,9 +65,10 @@ export const inventory: InventoryProduct[] = [
     description: `These handsome leather belts are guaranteed to pull together any outfit. They're made of vegetable-tanned Italian leather, which means they have natural highs and lows of color and will look even better over time.`,
     price: 4999,
     image:
-      "https://fullstackdotso.nyc3.cdn.digitaloceanspaces.com/braided-leather-belt.jpg",
+      "https://casupo.co/cdn/shop/products/FIX_classic-belt-twisted-honey_1000x1000.jpg?v=1618443075",
     images: [
-      "https://fullstackdotso.nyc3.cdn.digitaloceanspaces.com/braided-leather-belt.jpg",
+      "https://casupo.co/cdn/shop/products/FIX_classic-belt-honey_1000x1000.jpg?v=1689957945",
+      "https://casupo.co/cdn/shop/products/Smith1.5_honey_him_787x787.jpg?v=1689957787",
     ],
     sizes: ["s", "m", "l", "xl"],
     categories: ["belts"],
