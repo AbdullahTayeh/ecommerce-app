@@ -47,11 +47,11 @@ export const inventory: InventoryProduct[] = [
     description: `Meet your new favorite carry-on. Our supersized tote is crafted in durable waxed cotton canvas that's rugged and durable, ideal for hauling all of your stuff. This size takes you to and from the farmer's market, the gym or a weekend getaway.`,
     price: 14500,
     image:
-      "https://fullstackdotso.nyc3.cdn.digitaloceanspaces.com/khaki-tote-bag-1.jpg",
+      "https://www.abbottlyon.com/cdn/shop/products/CanvasToteBag_BlackStraps_AA_2_503e9eae-012d-4d51-8978-9236dc4fd30e_850x960_crop_center.jpg?v=1688719507",
     images: [
-      "https://fullstackdotso.nyc3.cdn.digitaloceanspaces.com/khaki-tote-bag-1.jpg",
-      "https://fullstackdotso.nyc3.cdn.digitaloceanspaces.com/khaki-tote-bag-2.jpg",
-      "https://fullstackdotso.nyc3.cdn.digitaloceanspaces.com/khaki-tote-bag-3.jpg",
+      "https://www.abbottlyon.com/cdn/shop/products/SAFFRON_RESORT_202_-06_ce2efe8a-02b5-4814-bdfc-43e985c7f18c_935x1056_crop_center.jpg?v=1688719505",
+      "https://www.abbottlyon.com/cdn/shop/files/Canvastote1_935x1056_crop_center.jpg?v=1689587318",
+      "https://www.abbottlyon.com/cdn/shop/files/TOTE_7596e03f-434a-4c18-ac57-7ef44cba88ee.jpg?height=5760&v=1688751318&width=1440",
     ],
     sizes: ["one-size"],
     categories: ["bags"],
