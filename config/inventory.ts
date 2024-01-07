@@ -13,7 +13,7 @@ interface InventoryProduct {
   description: string
   sku: string
 }
-//bags
+
 export interface SanityProduct extends Omit<InventoryProduct, "images"> {
   _id: string
   _createdAt: Date
