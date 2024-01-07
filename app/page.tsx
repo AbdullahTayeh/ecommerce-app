@@ -7,9 +7,11 @@ import { ProductFilters } from "@/components/product-filters"
 import { ProductGrid } from "@/components/product-grid"
 import { ProductSort } from "@/components/product-sort"
 import { seedSanityData } from "@/lib/seed"
+
 interface Props { }
 
 export default async function Page() {
+
   const products = await client.fetch<SanityProduct[]>(
     groq`*[_type == "product"] {
   _id,
