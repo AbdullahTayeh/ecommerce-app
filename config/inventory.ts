@@ -50,7 +50,7 @@ export const inventory: InventoryProduct[] = [
     image:
       "https://balenciaga.dam.kering.com/m/2b5d4d500f173926/Large-7659662AAYY8018_F.jpg?v=2",
     images: [
-      "https://balenciaga.dam.kering.com/m/2b5d4d500f173926/Large-7659662AAYY8018_F.jpg?v=2",
+"https://balenciaga.dam.kering.com/m/2b5d4d500f173926/Large-7659662AAYY8018_F.jpg?v=2",
       "https://balenciaga.dam.kering.com/m/37280ebcfd1d91f8/Large-7659662AAYY8018_J.jpg?v=2",
       "https://balenciaga.dam.kering.com/m/188929c2381be1f/Large-7659662AAYY8018_I.jpg?v=1",
       "https://balenciaga.dam.kering.com/m/2387a3cd183c57f9/Large-7659662AAYY8018_D.jpg?v=2"
