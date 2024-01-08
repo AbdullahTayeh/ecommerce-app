@@ -57,7 +57,7 @@ export function ProductFilters() {
           <AccordionItem value={`item-${i}`}>
             <AccordionTrigger>
               <span>
-                Section{" "}
+                {section.name}{" "}
                 <span className="ml-1 text-xs font-extrabold uppercase text-gray-400"></span>
               </span>
             </AccordionTrigger>
@@ -70,7 +70,7 @@ export function ProductFilters() {
                   >
                     <Checkbox />
                     <label className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70">
-                      Label
+                      {option.label}
                     </label>
                   </div>
                 ))}
