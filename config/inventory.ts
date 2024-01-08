@@ -31,6 +31,7 @@ export const inventory: InventoryProduct[] = [
     image:
       "https://www.abbottlyon.com/cdn/shop/products/CanvasToteBag_BlackStraps_AA_2_503e9eae-012d-4d51-8978-9236dc4fd30e_935x1056_crop_center.jpg?v=1688719507",
     images: [
+      "https://www.abbottlyon.com/cdn/shop/products/CanvasToteBag_BlackStraps_AA_2_503e9eae-012d-4d51-8978-9236dc4fd30e_935x1056_crop_center.jpg?v=1688719507",
       "https://www.abbottlyon.com/cdn/shop/products/CanvasToteBag_BlackStraps_E_1_8bfd9758-502c-413e-ae04-823019fe8634_935x1056_crop_center.jpg?v=1689587318",
       "https://www.abbottlyon.com/cdn/shop/products/CanvasToteBag_BlackStraps_D_1_a3b72a92-3747-437c-bdc2-6426022687bf_935x1056_crop_center.jpg?v=1689587318",
      // "https://www.abbottlyon.com/cdn/shop/products/CanvasToteBag_BlackStraps_AA_2_503e9eae-012d-4d51-8978-9236dc4fd30e_935x1056_crop_center.jpg?v=1688719507",
@@ -49,7 +50,7 @@ export const inventory: InventoryProduct[] = [
     image:
       "https://balenciaga.dam.kering.com/m/2b5d4d500f173926/Large-7659662AAYY8018_F.jpg?v=2",
     images: [
-
+"https://balenciaga.dam.kering.com/m/2b5d4d500f173926/Large-7659662AAYY8018_F.jpg?v=2",
       "https://balenciaga.dam.kering.com/m/37280ebcfd1d91f8/Large-7659662AAYY8018_J.jpg?v=2",
       "https://balenciaga.dam.kering.com/m/188929c2381be1f/Large-7659662AAYY8018_I.jpg?v=1",
       "https://balenciaga.dam.kering.com/m/2387a3cd183c57f9/Large-7659662AAYY8018_D.jpg?v=2"
@@ -68,6 +69,7 @@ export const inventory: InventoryProduct[] = [
     image:
       "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSIqemdc0JEeUqFMVBxuCNE0DKbq3et2gsy0LgU8kD4roZ69DsPrFcPl1s1K6IQHclyDADWC9Vf30fXuqXXrBxIJeJWu1SFgWCH6AREICw7K1sX0f8iV0r4vg",
     images: [
+      "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSIqemdc0JEeUqFMVBxuCNE0DKbq3et2gsy0LgU8kD4roZ69DsPrFcPl1s1K6IQHclyDADWC9Vf30fXuqXXrBxIJeJWu1SFgWCH6AREICw7K1sX0f8iV0r4vg",
       "https://i.etsystatic.com/13821260/r/il/e93bd2/2040102657/il_1588xN.2040102657_c72d.jpg",
 
     ],
@@ -182,6 +184,7 @@ export const inventory: InventoryProduct[] = [
     image:
       "https://xcdn.next.co.uk/common/items/default/default/itemimages/altitemzoom/c85262s.jpg?im=Resize,width=364",
     images: [
+      "https://xcdn.next.co.uk/common/items/default/default/itemimages/altitemzoom/c85262s.jpg?im=Resize,width=364",
       "https://xcdn.next.co.uk/common/items/default/default/itemimages/altitemzoom/c85262s2.jpg?im=Resize,width=364",
     ],
     sizes: ["one-size"],
