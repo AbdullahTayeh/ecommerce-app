@@ -83,9 +83,9 @@ export const inventory: InventoryProduct[] = [
     description: `This handsome belt will pull together any outfit. The strong materials will take on your wear patterns and look even better over time.`,
     price: 5599,
     image:
-      "https://www.abbottlyon.com/cdn/shop/products/CanvasToteBag_BlackStraps_AA_2_503e9eae-012d-4d51-8978-9236dc4fd30e_935x1056_crop_center.jpg?v=1688719507",
+      "https://silverpear.co.uk/wp-content/uploads/images/25140-1.jpg",
     images: [
-      "https://www.abbottlyon.com/cdn/shop/products/CanvasToteBag_BlackStraps_AA_2_503e9eae-012d-4d51-8978-9236dc4fd30e_935x1056_crop_center.jpg?v=1688719507",
+      "https://silverpear.co.uk/wp-content/uploads/images/25141-1.jpg",
     ],
     sizes: ["s", "m", "l", "xl"],
     categories: ["belts"],
@@ -110,13 +110,13 @@ export const inventory: InventoryProduct[] = [
     // currency: "USD",
     id: "743b3855-6487-4d52-80fc-bcb8ca4fa74b",
     sku: "leather_gloves_1",
-    name: "Leather Gloves",
+    name: "Gucci Leather GG Marmont Gloves - Black",
     description: `The smartest winter accessory. . . These 100 percent cashmere-lined gloves feature tech-friendly fingertips, so you can use your smartphone without getting frostbite.`,
     price: 9800,
     image:
-      "https://www.abbottlyon.com/cdn/shop/products/CanvasToteBag_BlackStraps_AA_2_503e9eae-012d-4d51-8978-9236dc4fd30e_935x1056_crop_center.jpg?v=1688719507",
+      "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSq4oeAdfUJxMaLdkGtFJuo52ZrZWNjGwDF83Fn1MdOcaDw6R-xM_9SYIkmp10siIC2OF_EjmCXcTEO89UyDIyN-AkZ83EQd2lFsaDZ6zRQSg8BGP5e3vAwjg",
     images: [
-      "https://www.abbottlyon.com/cdn/shop/products/CanvasToteBag_BlackStraps_AA_2_503e9eae-012d-4d51-8978-9236dc4fd30e_935x1056_crop_center.jpg?v=1688719507",
+      "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSNDAFRNoBAivh0I6LvpfF2kuPZQVUmeu_awBU9YqWi9j2INwZjqVJXz3T1xZr_T_Yp1S_TdOgC_LHwBSvIVhbJ8ZWBjFgRWL5KOAzd1WboR2n7rqZgQloB",
     ],
     sizes: ["s", "m", "l", "xl"],
     categories: ["gloves"],
@@ -126,35 +126,35 @@ export const inventory: InventoryProduct[] = [
   {
     id: "743b3855-6487-4d52-80fc-bcb8ca4fa74b",
     sku: "leather_gloves_1",
-    name: "Leather Gloves",
+    name: "Natural Leather Gloves",
     description: `The smartest winter accessory. . . These 100 percent cashmere-lined gloves feature tech-friendly fingertips, so you can use your smartphone without getting frostbite.`,
     price: 9800,
     image:
-      "https://www.abbottlyon.com/cdn/shop/products/CanvasToteBag_BlackStraps_AA_2_503e9eae-012d-4d51-8978-9236dc4fd30e_935x1056_crop_center.jpg?v=1688719507",
+      "https://cdna.lystit.com/520/650/n/photos/cettire/1ad5d440/fear-of-god-Beige-Stitch-Detailed-Gloves.jpeg",
     images: [
-      "https://www.abbottlyon.com/cdn/shop/products/CanvasToteBag_BlackStraps_AA_2_503e9eae-012d-4d51-8978-9236dc4fd30e_935x1056_crop_center.jpg?v=1688719507",
+      "https://cdna.lystit.com/520/650/n/photos/cettire/8cd2ebba/fear-of-god-Beige-Stitch-Detailed-Gloves.jpeg",
     ],
     sizes: ["s", "m", "l", "xl"],
     categories: ["gloves"],
     colors: ["brown"],
     currency: "USD",
   },
-  {
-    id: "83ea928a-d834-4c6d-a588-4c93ec2de3c0",
-    sku: "down_mittens_1",
-    name: "Down Mittens",
-    description: `Founded in Japan and now based in the U.S., Snow Peak has been making premium outdoor gear inspired by the mountainous region of Niigata, Japan, since 1958. Crafted in durable materials, these mittens are insulated with duckdown to keep your hands warm no matter through which polar vortex your day takes you.`,
-    price: 13999,
-    image:
-      "https://www.abbottlyon.com/cdn/shop/products/CanvasToteBag_BlackStraps_AA_2_503e9eae-012d-4d51-8978-9236dc4fd30e_935x1056_crop_center.jpg?v=1688719507",
-    images: [
-      "https://www.abbottlyon.com/cdn/shop/products/CanvasToteBag_BlackStraps_AA_2_503e9eae-012d-4d51-8978-9236dc4fd30e_935x1056_crop_center.jpg?v=1688719507",
-    ],
-    sizes: ["s", "m", "l", "xl"],
-    categories: ["gloves"],
-    colors: ["black"],
-    currency: "USD",
-  },
+  // {
+  //   id: "83ea928a-d834-4c6d-a588-4c93ec2de3c0",
+  //   sku: "down_mittens_1",
+  //   name: "Down Mittens",
+  //   description: `Founded in Japan and now based in the U.S., Snow Peak has been making premium outdoor gear inspired by the mountainous region of Niigata, Japan, since 1958. Crafted in durable materials, these mittens are insulated with duckdown to keep your hands warm no matter through which polar vortex your day takes you.`,
+  //   price: 13999,
+  //   image:
+  //     "https://www.abbottlyon.com/cdn/shop/products/CanvasToteBag_BlackStraps_AA_2_503e9eae-012d-4d51-8978-9236dc4fd30e_935x1056_crop_center.jpg?v=1688719507",
+  //   images: [
+  //     "https://www.abbottlyon.com/cdn/shop/products/CanvasToteBag_BlackStraps_AA_2_503e9eae-012d-4d51-8978-9236dc4fd30e_935x1056_crop_center.jpg?v=1688719507",
+  //   ],
+  //   sizes: ["s", "m", "l", "xl"],
+  //   categories: ["gloves"],
+  //   colors: ["black"],
+  //   currency: "USD",
+  // },
   {
     id: "c5ef468d-d49e-4aa5-be5b-41f34af40b19",
     sku: "brooks_sunglasses_1",
@@ -162,10 +162,10 @@ export const inventory: InventoryProduct[] = [
     description: `These are timeless sunglasses that are designed in California and handmade in Japan by master craftsmen. The Brooks frames are made with a keyhole bridge, one of the many details the brand includes in their construction.`,
     price: 42000,
     image:
-      "https://www.abbottlyon.com/cdn/shop/products/CanvasToteBag_BlackStraps_AA_2_503e9eae-012d-4d51-8978-9236dc4fd30e_935x1056_crop_center.jpg?v=1688719507",
+      "https://cdn-images.farfetch-contents.com/12/09/86/04/12098604_9897563_1000.jpg",
     images: [
-      "https://www.abbottlyon.com/cdn/shop/products/CanvasToteBag_BlackStraps_AA_2_503e9eae-012d-4d51-8978-9236dc4fd30e_935x1056_crop_center.jpg?v=1688719507",
-      "https://www.abbottlyon.com/cdn/shop/products/CanvasToteBag_BlackStraps_AA_2_503e9eae-012d-4d51-8978-9236dc4fd30e_935x1056_crop_center.jpg?v=1688719507",
+      "https://cdn-images.farfetch-contents.com/12/09/86/04/12098604_9897564_1000.jpg",
+      "https://cdn-images.farfetch-contents.com/12/09/86/04/12098604_9897565_1000.jpg",
     ],
     sizes: ["one-size"],
     categories: ["sunglasses"],
@@ -179,9 +179,9 @@ export const inventory: InventoryProduct[] = [
     description: `Our latest collection of handcrafted sunglasses features details like UV-protective lenses in shades specifically chosen to complement each frame, and all at a price that won't break the bank. We made these sunglasses with vintage-inspired acetate frames and a keyhole bridge.`,
     price: 5599,
     image:
-      "https://www.abbottlyon.com/cdn/shop/products/CanvasToteBag_BlackStraps_AA_2_503e9eae-012d-4d51-8978-9236dc4fd30e_935x1056_crop_center.jpg?v=1688719507",
+      "https://xcdn.next.co.uk/common/items/default/default/itemimages/altitemzoom/c85262s.jpg?im=Resize,width=364",
     images: [
-      "https://www.abbottlyon.com/cdn/shop/products/CanvasToteBag_BlackStraps_AA_2_503e9eae-012d-4d51-8978-9236dc4fd30e_935x1056_crop_center.jpg?v=1688719507",
+      "https://xcdn.next.co.uk/common/items/default/default/itemimages/altitemzoom/c85262s2.jpg?im=Resize,width=364",
     ],
     sizes: ["one-size"],
     categories: ["sunglasses"],
