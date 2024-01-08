@@ -29,11 +29,11 @@ export const inventory: InventoryProduct[] = [
     description: `Meet your new favorite carry-on. Our supersized tote is crafted in durable waxed cotton canvas that's rugged and durable, ideal for hauling all of your stuff. This size takes you to and from the farmer's market, the gym or a weekend getaway.`,
     price: 16800, // price in smallest currency unit (e.g. cent for USD)
     image:
-      "https://www.abbottlyon.com/cdn/shop/products/CanvasToteBag_BlackStraps_AA_2_503e9eae-012d-4d51-8978-9236dc4fd30e_935x1056_crop_center.jpg?v=1688719507",
+      "https://img01.ztat.net/article/spp-media-p1/82ee01c208fc4494b1fdfff4f4588867/76832eb22c3f4ec0a16e790294421795.jpg?imwidth=1800&filter=packshot",
     images: [
-      "https://www.abbottlyon.com/cdn/shop/products/CanvasToteBag_BlackStraps_AA_2_503e9eae-012d-4d51-8978-9236dc4fd30e_935x1056_crop_center.jpg?v=1688719507",
-      "https://www.abbottlyon.com/cdn/shop/products/CanvasToteBag_BlackStraps_AA_2_503e9eae-012d-4d51-8978-9236dc4fd30e_935x1056_crop_center.jpg?v=1688719507",
-      "https://www.abbottlyon.com/cdn/shop/products/CanvasToteBag_BlackStraps_AA_2_503e9eae-012d-4d51-8978-9236dc4fd30e_935x1056_crop_center.jpg?v=1688719507",
+      "https://img01.ztat.net/article/spp-media-p1/180b07b4528b4beca325ac814ec9eb66/369abee17a38432d8e4132768e33938d.jpg?imwidth=1800",
+      "https://img01.ztat.net/article/spp-media-p1/2a5f44f8025540bbb025b51180ecd6ab/6dc5f773cb9c493cbdbcc68f6756c092.jpg?imwidth=1800",
+     // "https://www.abbottlyon.com/cdn/shop/products/CanvasToteBag_BlackStraps_AA_2_503e9eae-012d-4d51-8978-9236dc4fd30e_935x1056_crop_center.jpg?v=1688719507",
     ],
     sizes: ["one-size"],
     categories: ["bags"],
@@ -42,15 +42,15 @@ export const inventory: InventoryProduct[] = [
   },
   {
     id: "8d1a33a5-5650-4bd7-bb70-ba4670090700",
-    sku: "khaki_tote_bag_1",
-    name: "Khaki Tote Bag",
+    sku: "WOMEN'S MONACO SMALL CHAIN BAG METALLIZED IN GOLD",
+    name: "WOMEN'S MONACO SMALL CHAIN BAG METALLIZED IN GOLD",
     description: `Meet your new favorite carry-on. Our supersized tote is crafted in durable waxed cotton canvas that's rugged and durable, ideal for hauling all of your stuff. This size takes you to and from the farmer's market, the gym or a weekend getaway.`,
-    price: 14500,
+    price: 1950,
     image:
-      "https://www.abbottlyon.com/cdn/shop/products/CanvasToteBag_BlackStraps_AA_2_503e9eae-012d-4d51-8978-9236dc4fd30e_935x1056_crop_center.jpg?v=1688719507",
+      "https://balenciaga.dam.kering.com/m/2b5d4d500f173926/Large-7659662AAYY8018_F.jpg?v=2",
     images: [
 
-      "https://www.abbottlyon.com/cdn/shop/products/CanvasToteBag_BlackStraps_AA_2_503e9eae-012d-4d51-8978-9236dc4fd30e_935x1056_crop_center.jpg?v=1688719507",
+      "https://balenciaga.dam.kering.com/m/37280ebcfd1d91f8/Large-7659662AAYY8018_J.jpg?v=2",
     ],
     sizes: ["one-size"],
     categories: ["bags"],
