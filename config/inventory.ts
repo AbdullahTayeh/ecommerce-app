@@ -87,7 +87,6 @@ export const inventory: InventoryProduct[] = [
     image:
       "https://silverpear.co.uk/wp-content/uploads/images/25140-1.jpg",
     images: [
-      "https://silverpear.co.uk/wp-content/uploads/images/25140-1.jpg",
       "https://silverpear.co.uk/wp-content/uploads/images/25141-1.jpg",
     ],
     sizes: ["s", "m", "l", "xl"],
