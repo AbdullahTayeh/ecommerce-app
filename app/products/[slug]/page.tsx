@@ -5,9 +5,12 @@ import { SanityProduct } from "@/config/inventory"
 import { ProductGallery } from "@/components/product-gallery"
 import { ProductInfo } from "@/components/product-info"
 
-interface Props {}
+interface Props {
+ 
+}
 
-export default function Page() {
+export default async function Page() {
+await client.fetch<SanityProduct>(groq`*[_type == "product && slug.current == "${slug}"]`)
   return (
     <main className="mx-auto max-w-5xl sm:px-6 sm:pt-16 lg:px-8">
       <div className="mx-auto max-w-2xl lg:max-w-none">
