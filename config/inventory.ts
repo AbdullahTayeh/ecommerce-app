@@ -91,20 +91,34 @@ export const inventory: InventoryProduct[] = [
     currency: "USD",
   },
   {
-    id: "b5980fb9-142b-4e0b-9683-daac07827e0a",
-    sku: "wool_scarf_1",
-    name: "Wool Scarf",
-    description: `Crafted in the finest English wool from the Abraham Moon mill (established in 1837), this scarf is an elegant and cozy addition to your winter wardrobe.`,
-    price: 6199,
+    // id: "b5980fb9-142b-4e0b-9683-daac07827e0a",
+    // sku: "wool_scarf_1",
+    // name: "Wool Scarf",
+    // description: `Crafted in the finest English wool from the Abraham Moon mill (established in 1837), this scarf is an elegant and cozy addition to your winter wardrobe.`,
+    // price: 6199,
+    // image:
+    //   "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSh4wlz-PBmavlWyirlU_W7w_MGk3qV7XbtRIAwoPFA_NFh6S3aX08rqETLckeC8fzxdfbeGjfx6yeZOSL5xj6vkcYLp8QM-QlgEKs9A92hoBEDQlMObflX&usqp=CAE",
+    // images: [
+
+    //   "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQ0aDAbMITyyLfvwPn4d90rlpBGQ0cBU8aaiUxV8cbcJBgv_rUAJBaafmIt3GAeluYZHxFrTmUHfpNqBZPOJbx4gMYC7ioa&usqp=CAE",
+    // ],
+    // sizes: ["one-size"],
+    // categories: ["scarves"],
+    // colors: ["green"],
+    // currency: "USD",
+    id: "743b3855-6487-4d52-80fc-bcb8ca4fa74b",
+    sku: "leather_gloves_1",
+    name: "Leather Gloves",
+    description: `The smartest winter accessory. . . These 100 percent cashmere-lined gloves feature tech-friendly fingertips, so you can use your smartphone without getting frostbite.`,
+    price: 9800,
     image:
       "https://www.abbottlyon.com/cdn/shop/products/CanvasToteBag_BlackStraps_AA_2_503e9eae-012d-4d51-8978-9236dc4fd30e_935x1056_crop_center.jpg?v=1688719507",
     images: [
-
-      "hhttps://www.abbottlyon.com/cdn/shop/products/CanvasToteBag_BlackStraps_AA_2_503e9eae-012d-4d51-8978-9236dc4fd30e_935x1056_crop_center.jpg?v=1688719507",
+      "https://www.abbottlyon.com/cdn/shop/products/CanvasToteBag_BlackStraps_AA_2_503e9eae-012d-4d51-8978-9236dc4fd30e_935x1056_crop_center.jpg?v=1688719507",
     ],
-    sizes: ["one-size"],
-    categories: ["scarves"],
-    colors: ["green"],
+    sizes: ["s", "m", "l", "xl"],
+    categories: ["gloves"],
+    colors: ["brown"],
     currency: "USD",
   },
   {
