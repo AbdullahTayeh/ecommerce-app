@@ -29,11 +29,11 @@ export const inventory: InventoryProduct[] = [
     description: `Meet your new favorite carry-on. Our supersized tote is crafted in durable waxed cotton canvas that's rugged and durable, ideal for hauling all of your stuff. This size takes you to and from the farmer's market, the gym or a weekend getaway.`,
     price: 16800, // price in smallest currency unit (e.g. cent for USD)
     image:
-      "https://www.abbottlyon.com/cdn/shop/products/CanvasToteBag_BlackStraps_AA_2_503e9eae-012d-4d51-8978-9236dc4fd30e_935x1056_crop_center.jpg?v=1688719507",
+      "https://balenciaga.dam.kering.com/m/3b767ed19b21ef7e/Large-7429422AAYA4661_F.jpg?v=2",
     images: [
-      "https://www.abbottlyon.com/cdn/shop/products/CanvasToteBag_BlackStraps_AA_2_503e9eae-012d-4d51-8978-9236dc4fd30e_935x1056_crop_center.jpg?v=1688719507",
-      "https://www.abbottlyon.com/cdn/shop/products/CanvasToteBag_BlackStraps_E_1_8bfd9758-502c-413e-ae04-823019fe8634_935x1056_crop_center.jpg?v=1689587318",
-      "https://www.abbottlyon.com/cdn/shop/products/CanvasToteBag_BlackStraps_D_1_a3b72a92-3747-437c-bdc2-6426022687bf_935x1056_crop_center.jpg?v=1689587318",
+      "hhttps://balenciaga.dam.kering.com/m/3b767ed19b21ef7e/Large-7429422AAYA4661_F.jpg?v=2",
+      "https://balenciaga.dam.kering.com/m/40f4296c7c99bb6b/Large-7429422AAYA4661_J.jpg?v=2",
+      "https://balenciaga.dam.kering.com/m/7c9f00cda8b3fde5/Large-7429422AAYA4661_I.jpg?v=28",
      // "https://www.abbottlyon.com/cdn/shop/products/CanvasToteBag_BlackStraps_AA_2_503e9eae-012d-4d51-8978-9236dc4fd30e_935x1056_crop_center.jpg?v=1688719507",
     ],
     sizes: ["one-size"],
@@ -50,7 +50,7 @@ export const inventory: InventoryProduct[] = [
     image:
       "https://balenciaga.dam.kering.com/m/2b5d4d500f173926/Large-7659662AAYY8018_F.jpg?v=2",
     images: [
-"https://balenciaga.dam.kering.com/m/2b5d4d500f173926/Large-7659662AAYY8018_F.jpg?v=2",
+      "https://balenciaga.dam.kering.com/m/2b5d4d500f173926/Large-7659662AAYY8018_F.jpg?v=2",
       "https://balenciaga.dam.kering.com/m/37280ebcfd1d91f8/Large-7659662AAYY8018_J.jpg?v=2",
       "https://balenciaga.dam.kering.com/m/188929c2381be1f/Large-7659662AAYY8018_I.jpg?v=1",
       "https://balenciaga.dam.kering.com/m/2387a3cd183c57f9/Large-7659662AAYY8018_D.jpg?v=2"
@@ -87,6 +87,7 @@ export const inventory: InventoryProduct[] = [
     image:
       "https://silverpear.co.uk/wp-content/uploads/images/25140-1.jpg",
     images: [
+      "https://silverpear.co.uk/wp-content/uploads/images/25140-1.jpg",
       "https://silverpear.co.uk/wp-content/uploads/images/25141-1.jpg",
     ],
     sizes: ["s", "m", "l", "xl"],
