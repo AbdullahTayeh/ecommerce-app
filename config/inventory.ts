@@ -29,10 +29,10 @@ export const inventory: InventoryProduct[] = [
     description: `Meet your new favorite carry-on. Our supersized tote is crafted in durable waxed cotton canvas that's rugged and durable, ideal for hauling all of your stuff. This size takes you to and from the farmer's market, the gym or a weekend getaway.`,
     price: 16800, // price in smallest currency unit (e.g. cent for USD)
     image:
-      "https://img01.ztat.net/article/spp-media-p1/82ee01c208fc4494b1fdfff4f4588867/76832eb22c3f4ec0a16e790294421795.jpg?imwidth=1800&filter=packshot",
+      "https://www.abbottlyon.com/cdn/shop/products/CanvasToteBag_BlackStraps_AA_2_503e9eae-012d-4d51-8978-9236dc4fd30e_935x1056_crop_center.jpg?v=1688719507",
     images: [
-      "https://img01.ztat.net/article/spp-media-p1/180b07b4528b4beca325ac814ec9eb66/369abee17a38432d8e4132768e33938d.jpg?imwidth=1800",
-      "https://img01.ztat.net/article/spp-media-p1/2a5f44f8025540bbb025b51180ecd6ab/6dc5f773cb9c493cbdbcc68f6756c092.jpg?imwidth=1800",
+      "https://www.abbottlyon.com/cdn/shop/products/CanvasToteBag_BlackStraps_E_1_8bfd9758-502c-413e-ae04-823019fe8634_935x1056_crop_center.jpg?v=1689587318",
+      "https://www.abbottlyon.com/cdn/shop/products/CanvasToteBag_BlackStraps_D_1_a3b72a92-3747-437c-bdc2-6426022687bf_935x1056_crop_center.jpg?v=1689587318",
      // "https://www.abbottlyon.com/cdn/shop/products/CanvasToteBag_BlackStraps_AA_2_503e9eae-012d-4d51-8978-9236dc4fd30e_935x1056_crop_center.jpg?v=1688719507",
     ],
     sizes: ["one-size"],
@@ -51,6 +51,8 @@ export const inventory: InventoryProduct[] = [
     images: [
 
       "https://balenciaga.dam.kering.com/m/37280ebcfd1d91f8/Large-7659662AAYY8018_J.jpg?v=2",
+      "https://balenciaga.dam.kering.com/m/188929c2381be1f/Large-7659662AAYY8018_I.jpg?v=1",
+      "https://balenciaga.dam.kering.com/m/2387a3cd183c57f9/Large-7659662AAYY8018_D.jpg?v=2"
     ],
     sizes: ["one-size"],
     categories: ["bags"],
@@ -64,9 +66,9 @@ export const inventory: InventoryProduct[] = [
     description: `These handsome leather belts are guaranteed to pull together any outfit. They're made of vegetable-tanned Italian leather, which means they have natural highs and lows of color and will look even better over time.`,
     price: 4999,
     image:
-      "https://www.abbottlyon.com/cdn/shop/products/CanvasToteBag_BlackStraps_AA_2_503e9eae-012d-4d51-8978-9236dc4fd30e_935x1056_crop_center.jpg?v=1688719507",
+      "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSIqemdc0JEeUqFMVBxuCNE0DKbq3et2gsy0LgU8kD4roZ69DsPrFcPl1s1K6IQHclyDADWC9Vf30fXuqXXrBxIJeJWu1SFgWCH6AREICw7K1sX0f8iV0r4vg",
     images: [
-      "https://www.abbottlyon.com/cdn/shop/products/CanvasToteBag_BlackStraps_AA_2_503e9eae-012d-4d51-8978-9236dc4fd30e_935x1056_crop_center.jpg?v=1688719507",
+      "https://i.etsystatic.com/13821260/r/il/e93bd2/2040102657/il_1588xN.2040102657_c72d.jpg",
 
     ],
     sizes: ["s", "m", "l", "xl"],
