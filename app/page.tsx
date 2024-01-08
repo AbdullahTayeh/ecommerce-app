@@ -22,7 +22,7 @@ interface Props {
 }
 
 export default async function Page({ searchParams }: Props) {
-  //  await seedSanityData()
+ await seedSanityData()
   const { date = "desc", price, size, category, color, search } = searchParams
   const priceOrder = price ? `| order(price ${price})` : ""
   const dateOrder = date ? `| order(_createdAt ${date})` : ""
