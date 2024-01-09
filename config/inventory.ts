@@ -170,7 +170,9 @@ export const inventory: InventoryProduct[] = [
     image:
       "https://cdn-images.farfetch-contents.com/12/09/86/04/12098604_9897564_1000.jpg",
     images: [
+
       "https://cdn-images.farfetch-contents.com/12/09/86/04/12098604_9897564_1000.jpg",
+      "https://www.seen.co.uk/cdn/shop/products/Sunglasses_BrooksX_2083_PRO_SKLM_1.jpg?v=1645542699&width=1536",
       "https://cdn-images.farfetch-contents.com/12/09/86/04/12098604_9897565_1000.jpg",
     ],
     sizes: ["one-size"],
@@ -195,4 +197,23 @@ export const inventory: InventoryProduct[] = [
     colors: ["black"],
     currency: "USD",
   },
+  {
+    id: "fghjkl9d-97c3-47bb-9172-4ea74b0s25df",
+    sku: "dock_sunglasses_1",
+    name: "Greyfield Mid Lace-Ups",
+    description: `Our latest collection of handcrafted sunglasses features details like UV-protective lenses in shades specifically chosen to complement each frame, and all at a price that won't break the bank. We made these sunglasses with vintage-inspired acetate frames and a keyhole bridge.`,
+    price: 200,
+    image:
+      "https://images.timberland.com/is/image/TimberlandEU/A2JGD269-hero?wid=720&hei=720&fit=constrain,1&qlt=85,1&op_usm=1,1,6,0",
+    images: [
+      "https://images.timberland.com/is/image/TimberlandEU/A2JGD269-hero?wid=720&hei=720&fit=constrain,1&qlt=85,1&op_usm=1,1,6,0",
+      "https://images.timberland.com/is/image/TimberlandEU/A2JGD269-alt1?wid=720&hei=720&fit=constrain,1&qlt=85,1&op_usm=1,1,6,0",
+      "https://images.timberland.com/is/image/TimberlandEU/A2JGD269-alt2?wid=720&hei=720&fit=constrain,1&qlt=85,1&op_usm=1,1,6,0",
+      "https://images.timberland.com/is/image/TimberlandEU/A2JGD269-alt3?wid=720&hei=720&fit=constrain,1&qlt=85,1&op_usm=1,1,6,0",
+    ],
+    sizes: ["one-size"],
+    categories: ["sunglasses"],
+    colors: ["white"],
+    currency: "USD",
+  }
 ]
