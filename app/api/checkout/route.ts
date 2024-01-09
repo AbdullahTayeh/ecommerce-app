@@ -17,7 +17,7 @@ export async function POST(request: Request) {
     shipping_address_collection: { allowed_countries: ["GB"] },
     shipping_options: [
       {
-        shipping_rate: "shr_1OWfGXBmJGjW2EyeGHjd35Oz",
+        shipping_rate: "shr_1OWdpNBmJGjW2EyedzhR8c6A",
       }
     ],
     billing_address_collection: "auto",
