@@ -26,7 +26,7 @@ export async function POST(request: Request) {
   })
   return NextResponse.json(session)
 }
-
+//working
 // export async function POST(request: Request) {
 //     const cartDetails = await request.json()
 //     const lineItems = validateCartItems(inventory, cartDetails)
