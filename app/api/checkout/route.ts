@@ -6,25 +6,47 @@ import { inventory } from "@/config/inventory"
 import { stripe } from "@/lib/stripe"
 
 export async function POST(request: Request) {
- const cartDetails = await request.json()
- const lineItems = validateCartItems(inventory, cartDetails)
- const origin = request.headers.get("origin")
- const session = await stripe.checkout.sessions.create({
+  const cartDetails = await request.json()
+  const lineItems = validateCartItems(inventory, cartDetails)
+  const origin = request.headers.get("origin")
+  const session = await stripe.checkout.sessions.create({
     submit_type: "pay",
     mode: "payment",
-    payment_method_types: ['card'],
+    payment_method_types: ["card"],
     line_items: lineItems,
-    shipping_address_collection: {
-        allowed_countries: ["GB"]
-    },
+    shipping_address_collection: { allowed_countries: ["GB"] },
     shipping_options: [
-       {
-         shipping_rate: "shr_1OWdpNBmJGjW2EyedzhR8c6A"
-        }
+      {
+        shipping_rate: "shr_1OWdpNBmJGjW2EyedzhR8c6A",
+      }
     ],
     billing_address_collection: "auto",
-    success_url: `${origin}/success?session_id={CHECKOUT_SESSION_ID}`,
-    cancel_url: `${origin}/cart`
- })
- return NextResponse.json(session)
+    success_url: `${origin}/sucess?session_id={CHECKOUT_SESSION_ID}`,
+    cancel_url: `${origin}/cart`,
+  })
+  return NextResponse.json(session)
 }
+
+// export async function POST(request: Request) {
+//     const cartDetails = await request.json()
+//     const lineItems = validateCartItems(inventory, cartDetails)
+//     const origin = request.headers.get("origin")
+//     const session = await stripe.checkout.sessions.create({
+//        submit_type: "pay",
+//        mode: "payment",
+//        payment_method_types: ['card'],
+//        line_items: lineItems,
+//        shipping_address_collection: {
+//            allowed_countries: ["GB"]
+//        },
+//        shipping_options: [
+//           {
+//             shipping_rate: "shr_1OWdpNBmJGjW2EyedzhR8c6A"
+//            }
+//        ],
+//        billing_address_collection: "auto",
+//        success_url: `${origin}/success?session_id={CHECKOUT_SESSION_ID}`,
+//        cancel_url: `${origin}/cart`
+//     })
+//     return NextResponse.json(session)
+//    }

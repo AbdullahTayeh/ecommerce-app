@@ -12,7 +12,7 @@ export function CartSummary() {
     totalPrice,
     cartDetails,
     cartCount,
-    redirectToCheckout,
+    redirectToCheckout
   } = useShoppingCart()
   const [isLoading, setLoading] = useState(false)
   const isDisabled = isLoading || cartCount! === 0
@@ -28,7 +28,7 @@ export function CartSummary() {
     const result = await redirectToCheckout(data.id)
 
     if (result?.error) {
-      console.log(result)
+      console.error(result)
     }
     setLoading(false)
   }
