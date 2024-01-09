@@ -31,7 +31,7 @@ export const inventory: InventoryProduct[] = [
     image:
       "https://balenciaga.dam.kering.com/m/3b767ed19b21ef7e/Large-7429422AAYA4661_F.jpg?v=2",
     images: [
-      "hhttps://balenciaga.dam.kering.com/m/3b767ed19b21ef7e/Large-7429422AAYA4661_F.jpg?v=2",
+      "https://balenciaga.dam.kering.com/m/3b767ed19b21ef7e/Large-7429422AAYA4661_F.jpg?v=2",
       "https://balenciaga.dam.kering.com/m/40f4296c7c99bb6b/Large-7429422AAYA4661_J.jpg?v=2",
       "https://balenciaga.dam.kering.com/m/7c9f00cda8b3fde5/Large-7429422AAYA4661_I.jpg?v=28",
      // "https://www.abbottlyon.com/cdn/shop/products/CanvasToteBag_BlackStraps_AA_2_503e9eae-012d-4d51-8978-9236dc4fd30e_935x1056_crop_center.jpg?v=1688719507",
@@ -165,7 +165,7 @@ export const inventory: InventoryProduct[] = [
     description: `These are timeless sunglasses that are designed in California and handmade in Japan by master craftsmen. The Brooks frames are made with a keyhole bridge, one of the many details the brand includes in their construction.`,
     price: 42000,
     image:
-      "https://cdn-images.farfetch-contents.com/12/09/86/04/12098604_9897563_1000.jpg",
+      "https://cdn-images.farfetch-contents.com/12/09/86/04/12098604_9897564_1000.jpg",
     images: [
       "https://cdn-images.farfetch-contents.com/12/09/86/04/12098604_9897564_1000.jpg",
       "https://cdn-images.farfetch-contents.com/12/09/86/04/12098604_9897565_1000.jpg",
