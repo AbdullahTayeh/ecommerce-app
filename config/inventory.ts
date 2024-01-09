@@ -46,7 +46,7 @@ export const inventory: InventoryProduct[] = [
     sku: "WOMEN'S MONACO SMALL CHAIN BAG METALLIZED IN GOLD",
     name: "WOMEN'S MONACO SMALL CHAIN BAG METALLIZED IN GOLD",
     description: `Meet your new favorite carry-on. Our supersized tote is crafted in durable waxed cotton canvas that's rugged and durable, ideal for hauling all of your stuff. This size takes you to and from the farmer's market, the gym or a weekend getaway.`,
-    price: 1950,
+    price: 19500,
     image:
       "https://balenciaga.dam.kering.com/m/2b5d4d500f173926/Large-7659662AAYY8018_F.jpg?v=2",
     images: [
@@ -166,7 +166,7 @@ export const inventory: InventoryProduct[] = [
     sku: "brooks_sunglasses_1",
     name: "Brooks Sunglasses",
     description: `These are timeless sunglasses that are designed in California and handmade in Japan by master craftsmen. The Brooks frames are made with a keyhole bridge, one of the many details the brand includes in their construction.`,
-    price: 42000,
+    price: 4200,
     image:
       "https://cdn-images.farfetch-contents.com/12/09/86/04/12098604_9897564_1000.jpg",
     images: [
@@ -202,7 +202,7 @@ export const inventory: InventoryProduct[] = [
     sku: "dock_sunglasses_1",
     name: "Greyfield Mid Lace-Ups",
     description: `Our latest collection of handcrafted sunglasses features details like UV-protective lenses in shades specifically chosen to complement each frame, and all at a price that won't break the bank. We made these sunglasses with vintage-inspired acetate frames and a keyhole bridge.`,
-    price: 200,
+    price: 20000,
     image:
       "https://images.timberland.com/is/image/TimberlandEU/A2JGD269-hero?wid=720&hei=720&fit=constrain,1&qlt=85,1&op_usm=1,1,6,0",
     images: [
