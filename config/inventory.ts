@@ -201,7 +201,7 @@ export const inventory: InventoryProduct[] = [
     id: "fghjkl9d-97c3-47bb-9172-4ea74b0s25df",
     sku: "dock_sunglasses_1",
     name: "Greyfield Mid Lace-Ups",
-    description: `Our latest collection of handcrafted sunglasses features details like UV-protective lenses in shades specifically chosen to complement each frame, and all at a price that won't break the bank. We made these sunglasses with vintage-inspired acetate frames and a keyhole bridge.`,
+    description: ` A perfect blend of style and comfort for the modern individual. These sophisticated mid-height lace-up shoes are crafted with meticulous attention to detail, ensuring both durability and a fashion-forward aesthetic.`,
     price: 20000,
     image:
       "https://images.timberland.com/is/image/TimberlandEU/A2JGD269-hero?wid=720&hei=720&fit=constrain,1&qlt=85,1&op_usm=1,1,6,0",
