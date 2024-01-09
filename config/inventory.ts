@@ -212,7 +212,7 @@ export const inventory: InventoryProduct[] = [
       "https://images.timberland.com/is/image/TimberlandEU/A2JGD269-alt3?wid=720&hei=720&fit=constrain,1&qlt=85,1&op_usm=1,1,6,0",
     ],
     sizes: ["one-size"],
-    categories: ["sunglasses"],
+    categories: ["shoes"],
     colors: ["white"],
     currency: "USD",
   }

@@ -20,6 +20,7 @@ const filters = [
       { value: "gloves", label: "Gloves" },
       { value: "scarves", label: "Scarves" },
       { value: "wallets", label: "Wallets" },
+      { value: "shoes", label: "Shoes" }
     ],
   },
   {
@@ -43,6 +44,7 @@ const filters = [
       { value: "brown", label: "Brown" },
       { value: "green", label: "Green" },
       { value: "yellow", label: "Yellow" },
+      { value: "white", label: "White" }
     ],
   },
 ]
