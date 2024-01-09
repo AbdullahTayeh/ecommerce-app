@@ -24,6 +24,7 @@ export function CartSummary() {
       method: "POST",
       body: JSON.stringify(cartDetails)
     })
+    console.log(response);
     const data = await response.json()
     const result = await redirectToCheckout(data.id)
 
