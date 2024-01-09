@@ -36,11 +36,10 @@ export function ProductGrid({ products }: Props) {
               placeholder="blur"
               blurDataURL={`data:image/svg+xml;base64,${toBase64(shimmer(225, 280))}`}
               src={product.images?.[0] ? urlForImage(product.images[0]).url() : ""}
-              // src={urlForImage(product.images[0]).url()}
               alt={product.name}
               width={225}
               height={280}
-              className="h-full w-full object-cover object-center"
+              className="h-full w-full object-cover object-center fixed-height"
             />
           </div>
           <h3 className="mt-4 font-medium">{product.name}</h3>
@@ -52,7 +51,6 @@ export function ProductGrid({ products }: Props) {
           </p>
         </Link>
       ))}
-
     </div>
-  )
+  );
 }
