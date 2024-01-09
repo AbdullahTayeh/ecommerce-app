@@ -27,7 +27,7 @@ export const inventory: InventoryProduct[] = [
     sku: "CRUSH_MEDIUM_1",
     name: "CRUSH MEDIUM TOTE BAG DENIM IN BLUE",
     description: `Meet your new favorite carry-on. Our supersized bag is crafted in durable waxed cotton canvas that's rugged and durable, ideal for hauling all of your stuff. This size takes you to and from the farmer's market, the gym or a weekend getaway.`,
-    price: 16800, // price in smallest currency unit (e.g. cent for USD)
+    price: 16800, // price in smallest currency unit (e.g. cent for GBP)
     image:
       "https://balenciaga.dam.kering.com/m/3b767ed19b21ef7e/Large-7429422AAYA4661_F.jpg?v=2",
     images: [
@@ -39,7 +39,7 @@ export const inventory: InventoryProduct[] = [
     sizes: ["one-size"],
     categories: ["bags"],
     colors: ["brown"],
-    currency: "USD",
+    currency: "GBP",
   },
   {
     id: "8d1a33a5-5650-4bd7-bb70-ba4670090700",
@@ -58,7 +58,7 @@ export const inventory: InventoryProduct[] = [
     sizes: ["one-size"],
     categories: ["bags"],
     colors: ["blue"],
-    currency: "USD",
+    currency: "GBP",
   },
   {
     id: "e882fe48-253c-40fb-8155-51b47b063c1a",
@@ -76,7 +76,7 @@ export const inventory: InventoryProduct[] = [
     sizes: ["s", "m", "l", "xl"],
     categories: ["belts"],
     colors: ["brown"],
-    currency: "USD",
+    currency: "GBP",
   },
   {
     id: "6853a582-fc95-44af-9dac-dffbc694b47d",
@@ -93,7 +93,7 @@ export const inventory: InventoryProduct[] = [
     sizes: ["s", "m", "l", "xl"],
     categories: ["belts"],
     colors: ["black"],
-    currency: "USD",
+    currency: "GBP",
   },
   {
     // id: "b5980fb9-142b-4e0b-9683-daac07827e0a",
@@ -110,7 +110,7 @@ export const inventory: InventoryProduct[] = [
     // sizes: ["one-size"],
     // categories: ["scarves"],
     // colors: ["green"],
-    // currency: "USD",
+    // currency: "GBP",
     id: "743b3855-6487-4d52-80fc-bcb8ca4fa74b",
     sku: "leather_gloves_1",
     name: "Gucci Leather GG Marmont Gloves - Black",
@@ -127,7 +127,7 @@ export const inventory: InventoryProduct[] = [
     sizes: ["s", "m", "l", "xl"],
     categories: ["gloves"],
     colors: ["brown"],
-    currency: "USD",
+    currency: "GBP",
   },
   {
     id: "743b3855-6487-4d52-80fc-bcb8ca4fa74b",
@@ -143,7 +143,7 @@ export const inventory: InventoryProduct[] = [
     sizes: ["s", "m", "l", "xl"],
     categories: ["gloves"],
     colors: ["brown"],
-    currency: "USD",
+    currency: "GBP",
   },
   // {
   //   id: "83ea928a-d834-4c6d-a588-4c93ec2de3c0",
@@ -159,7 +159,7 @@ export const inventory: InventoryProduct[] = [
   //   sizes: ["s", "m", "l", "xl"],
   //   categories: ["gloves"],
   //   colors: ["black"],
-  //   currency: "USD",
+  //   currency: "GBP",
   // },
   {
     id: "c5ef468d-d49e-4aa5-be5b-41f34af40b19",
@@ -178,7 +178,7 @@ export const inventory: InventoryProduct[] = [
     sizes: ["one-size"],
     categories: ["sunglasses"],
     colors: ["yellow"],
-    currency: "USD",
+    currency: "GBP",
   },
   {
     id: "dd27c79d-97c3-47bb-9172-4ea74b096f6f",
@@ -195,13 +195,13 @@ export const inventory: InventoryProduct[] = [
     sizes: ["one-size"],
     categories: ["sunglasses"],
     colors: ["black"],
-    currency: "USD",
+    currency: "GBP",
   },
   {
     id: "fghjkl9d-97c3-47bb-9172-4ea74b0s25df",
     sku: "dock_sunglasses_1",
     name: "Greyfield Mid Lace-Ups",
-    description: ` A perfect blend of style and comfort for the modern individual. These sophisticated mid-height lace-up shoes are crafted with meticulous attention to detail, ensuring both durability and a fashion-forward aesthetic.`,
+    description: ` a perfect blend of style and comfort for the modern individual. These sophisticated mid-height lace-up shoes are crafted with meticulous attention to detail, ensuring both durability and a fashion-forward aesthetic.`,
     price: 20000,
     image:
       "https://images.timberland.com/is/image/TimberlandEU/A2JGD269-hero?wid=720&hei=720&fit=constrain,1&qlt=85,1&op_usm=1,1,6,0",
@@ -214,6 +214,6 @@ export const inventory: InventoryProduct[] = [
     sizes: ["one-size"],
     categories: ["shoes"],
     colors: ["white"],
-    currency: "USD",
+    currency: "GBP",
   }
 ]

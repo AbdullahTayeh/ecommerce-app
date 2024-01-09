@@ -12,7 +12,7 @@ export function CartSummary() {
     totalPrice,
     cartDetails,
     cartCount,
-    redirectToCheckout
+    redirectToCheckout,
   } = useShoppingCart()
   const [isLoading, setLoading] = useState(false)
   const isDisabled = isLoading || cartCount! === 0
@@ -24,12 +24,11 @@ export function CartSummary() {
       method: "POST",
       body: JSON.stringify(cartDetails)
     })
-    console.log(response);
     const data = await response.json()
     const result = await redirectToCheckout(data.id)
 
     if (result?.error) {
-      console.error(result)
+      console.log(result)
     }
     setLoading(false)
   }
@@ -53,13 +52,13 @@ export function CartSummary() {
             <span>Shipping estimate</span>
           </dt>
           <dd className="text-sm font-medium">
-            {formatCurrencyString({ value: shippingAmount, currency: "USD" })}
+            {formatCurrencyString({ value: shippingAmount, currency: "GBP" })}
           </dd>
         </div>
         <div className="flex items-center justify-between border-t border-gray-200 pt-4 dark:border-gray-600">
           <dt className="text-base font-medium">Order total</dt>
           <dd className="text-base font-medium">
-            {formatCurrencyString({ value: totalAmount, currency: "USD" })}
+            {formatCurrencyString({ value: totalAmount, currency: "GBP" })}
           </dd>
         </div>
       </dl>
