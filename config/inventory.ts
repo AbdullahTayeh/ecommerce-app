@@ -120,6 +120,9 @@ export const inventory: InventoryProduct[] = [
       "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSq4oeAdfUJxMaLdkGtFJuo52ZrZWNjGwDF83Fn1MdOcaDw6R-xM_9SYIkmp10siIC2OF_EjmCXcTEO89UyDIyN-AkZ83EQd2lFsaDZ6zRQSg8BGP5e3vAwjg",
     images: [
       "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSNDAFRNoBAivh0I6LvpfF2kuPZQVUmeu_awBU9YqWi9j2INwZjqVJXz3T1xZr_T_Yp1S_TdOgC_LHwBSvIVhbJ8ZWBjFgRWL5KOAzd1WboR2n7rqZgQloB",
+      "https://cdn.endource.com/image/1d973f5ba618d748dc96cb29743bc198/detail/gg-marmont-chevron-quilted-leather-gloves.jpg?optimizer=image&class=400",
+      "https://cdn.endource.com/image/e172a9535b48c2cdf796c469a7c6bebe/detail/gg-marmont-chevron-quilted-leather-gloves.jpg?optimizer=image&class=400",
+
     ],
     sizes: ["s", "m", "l", "xl"],
     categories: ["gloves"],
