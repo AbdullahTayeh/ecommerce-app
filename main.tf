@@ -3,7 +3,7 @@ provider "aws" {
 }
 
 resource "aws_s3_bucket" my_bucket {
-    bucket = "at-p3_s3_bucket"
+  bucket = "at-p3_s3_bucket"
   #  acl = "privat-p3e"
 }
 resource "aws_EC2_instance" "at-p3_EC2_instance_1"{
@@ -15,7 +15,7 @@ resource "aws_EC2_instance" "at-p3_EC2_instance_2"{
 }
 
 resource "aws_lb" "at-p3-lb" {
-  name = "at-p3-loadbalancer"
+  # name = "at-p3-loadbalancer"
   external = false
   load_balancer_type = "applicat-p3ion"
   subnet = var.public_sn_id
