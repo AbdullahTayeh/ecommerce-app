@@ -3,29 +3,67 @@ provider "aws" {
 }
 
 resource "aws_s3_bucket" "abdullah_project3_bucket" {
-  bucket = "vogue-vista-s3-bucket"
+  bucket = "abdullah-project3-s3-bucket"
 }
 
 resource "aws_instance" "abdullah_project3_instance1" {
-  ami           = "ami-02d3fd86e6a2f5122"
+  ami           = "ami-0766b4b472db7e3b9"
   instance_type = "t2.micro"
 }
 
 resource "aws_instance" "abdullah_project3_instance2" {
-  ami           = "ami-02d3fd86e6a2f5122"
+  ami           = "ami-0766b4b472db7e3b9"
   instance_type = "t2.micro"
 }
 
-resource "aws_lb" "abdullah-project3-lb" {
-  internal           = false
-  load_balancer_type = "application"
-  subnets            = ["subnet-12345678", "subnet-87654321"] 
-
-  security_groups = [aws_security_group.alb_sg.id]  
+resource "aws_vpc" "example" {
+  cidr_block = "10.0.0.0/16"
 }
 
-resource "aws_lb_listener" "http" {
-  load_balancer_arn   = aws_lb.abdullah-project3-lb.arn
+resource "aws_internet_gateway" "example" {
+  vpc_id = aws_vpc.example.id
+}
+
+resource "aws_subnet" "example" {
+  vpc_id                  = aws_vpc.example.id
+  cidr_block              = "10.0.0.0/24"
+  map_public_ip_on_launch = true
+}
+
+resource "aws_route_table" "example" {
+  vpc_id = aws_vpc.example.id
+
+  route {
+    cidr_block = "0.0.0.0/0"
+    gateway_id = aws_internet_gateway.example.id
+  }
+}
+
+resource "aws_route_table_association" "example" {
+  subnet_id      = aws_subnet.example.id
+  route_table_id = aws_route_table.example.id
+}
+
+resource "aws_lb" "at_p3_lb" {
+  internal           = false
+  load_balancer_type = "application"
+  subnets            = [aws_subnet.example.id]  # Use the created subnet
+  security_groups    = [aws_security_group.alb_sg.id]  
+}
+
+resource "aws_lb_listener" "at_p3_http_listener" {
+  load_balancer_arn = aws_lb.at_p3_lb.arn
+  protocol          = "HTTP"
+  port              = 80
+
+  default_action {
+    type             = "forward"
+    target_group_arn = aws_lb_target_group.at-p3-target-group.arn
+  }
+}
+
+resource "aws_lb_listener" "at_p3_http_redirect" {
+  load_balancer_arn   = aws_lb.at_p3_lb.arn
   port                = 80
   protocol            = "HTTP"
 
@@ -39,8 +77,8 @@ resource "aws_lb_listener" "http" {
   }
 }
 
-resource "aws_lb_listener" "https" {
-  load_balancer_arn   = aws_lb.abdullah-project3-lb.arn
+resource "aws_lb_listener" "at_p3_lb_https" {
+  load_balancer_arn   = aws_lb.at_p3_lb.arn
   port                = 443
   protocol            = "HTTPS"
 
@@ -49,16 +87,16 @@ resource "aws_lb_listener" "https" {
 
   default_action {
     type              = "forward"
-    target_group_arn  = aws_lb_target_group.example.arn
+    target_group_arn  = aws_lb_target_group.at-p3-target-group.arn
   }
 }
 
-resource "aws_lb_target_group" "example" {
-  name                = "example-target-group"
+resource "aws_lb_target_group" "at-p3-target-group" {
+  name                = "at-p3-target-group"
   port                = 80
   protocol            = "HTTP"
-  # vpc_id            = "vpc-12345678" if needed
   target_type         = "instance"
+  vpc_id              = aws_vpc.example.id
 }
 
 resource "aws_iam_role" "abdullah-project3-dev" {
@@ -79,7 +117,6 @@ resource "aws_security_group" "abdullah-project3-sg" {
   name        = "abdullah-project3-sg"
   description = "abdullah-project3-security-group"
 
-  //  HTTP/S (port 80) (port 443)
   ingress {
     from_port   = 80
     to_port     = 80
@@ -93,7 +130,6 @@ resource "aws_security_group" "abdullah-project3-sg" {
     cidr_blocks = ["0.0.0.0/0"]
   }
 
-  // (allow all outbound traffic)
   egress {
     from_port   = 0
     to_port     = 0
@@ -106,7 +142,6 @@ resource "aws_security_group" "alb_sg" {
   name        = "alb-security-group"
   description = "Security group for ALB"
 
-  // Ingress rules for HTTP (port 80) and HTTPS (port 443)
   ingress {
     from_port   = 80
     to_port     = 80
@@ -120,7 +155,6 @@ resource "aws_security_group" "alb_sg" {
     cidr_blocks = ["0.0.0.0/0"]
   }
 
-  // Outbound traffic rules (allow all outbound traffic)
   egress {
     from_port   = 0
     to_port     = 0
@@ -128,6 +162,8 @@ resource "aws_security_group" "alb_sg" {
     cidr_blocks = ["0.0.0.0/0"]
   }
 }
+
+
 
 
 
