@@ -19,9 +19,9 @@ resource "aws_instance" "abdullah_project3_instance2" {
 resource "aws_lb" "abdullah-project3-lb" {
   internal           = false
   load_balancer_type = "application"
-  subnets            = ["subnet-12345678", "subnet-87654321"]  # Replace with your subnet IDs
+  subnets            = ["subnet-12345678", "subnet-87654321"]  
 
-  security_groups = [aws_security_group.alb_sg.id]  # Attach ALB security group
+  security_groups = [aws_security_group.alb_sg.id]  
 }
 
 resource "aws_lb_listener" "http" {
