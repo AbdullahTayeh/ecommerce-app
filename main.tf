@@ -19,46 +19,46 @@ resource "aws_instance" "abdullah_project3_instance2" {
 resource "aws_lb" "abdullah-project3-lb" {
   internal           = false
   load_balancer_type = "application"
-  subnets            = ["subnet-12345678", "subnet-87654321"]  
+  subnets            = ["subnet-12345678", "subnet-87654321"] 
 
   security_groups = [aws_security_group.alb_sg.id]  
 }
 
 resource "aws_lb_listener" "http" {
-  load_balancer_arn = aws_lb.abdullah-project3-lb.arn
-  port              = 80
-  protocol          = "HTTP"
+  load_balancer_arn   = aws_lb.abdullah-project3-lb.arn
+  port                = 80
+  protocol            = "HTTP"
 
   default_action {
-    type             = "redirect"
+    type              = "redirect"
     redirect {
-      protocol       = "HTTPS"
-      port           = "443"
-      status_code    = "HTTP_301"
+      protocol        = "HTTPS"
+      port            = "443"
+      status_code     = "HTTP_301"
     }
   }
 }
 
 resource "aws_lb_listener" "https" {
-  load_balancer_arn = aws_lb.abdullah-project3-lb.arn
-  port              = 443
-  protocol          = "HTTPS"
+  load_balancer_arn   = aws_lb.abdullah-project3-lb.arn
+  port                = 443
+  protocol            = "HTTPS"
 
-  ssl_policy      = "ELBSecurityPolicy-2016-08"
-  certificate_arn = "arn:aws:acm:us-west-2:123456789012:certificate/abcdef01-1234-5678-abcd-1234567890ab"
+  ssl_policy          = "ELBSecurityPolicy-2016-08"
+  certificate_arn     = "arn:aws:acm:us-west-2:123456789012:certificate/abcdef01-1234-5678-abcd-1234567890ab"
 
   default_action {
-    type             = "forward"
-    target_group_arn = aws_lb_target_group.example.arn
+    type              = "forward"
+    target_group_arn  = aws_lb_target_group.example.arn
   }
 }
 
 resource "aws_lb_target_group" "example" {
-  name        = "example-target-group"
-  port        = 80
-  protocol    = "HTTP"
-  vpc_id      = "vpc-12345678"  # Replace with your VPC ID
-  target_type = "instance"
+  name                = "example-target-group"
+  port                = 80
+  protocol            = "HTTP"
+  # vpc_id            = "vpc-12345678" if needed
+  target_type         = "instance"
 }
 
 resource "aws_iam_role" "abdullah-project3-dev" {
@@ -79,7 +79,7 @@ resource "aws_security_group" "abdullah-project3-sg" {
   name        = "abdullah-project3-sg"
   description = "abdullah-project3-security-group"
 
-  // Ingress rules for HTTP (port 80) and HTTPS (port 443)
+  //  HTTP/S (port 80) (port 443)
   ingress {
     from_port   = 80
     to_port     = 80
@@ -93,7 +93,7 @@ resource "aws_security_group" "abdullah-project3-sg" {
     cidr_blocks = ["0.0.0.0/0"]
   }
 
-  // Outbound traffic rules (allow all outbound traffic)
+  // (allow all outbound traffic)
   egress {
     from_port   = 0
     to_port     = 0
