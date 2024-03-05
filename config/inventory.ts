@@ -22,63 +22,9 @@ export interface SanityProduct extends Omit<InventoryProduct, "images"> {
 }
 
 export const inventory: InventoryProduct[] = [
-  {
-    id: "fghjkl9d-97c3-47bb-9172-4ea74b0s25dfs",
-    sku: "Greyfield Mid Lace-Ups",
-    name: "Greyfield Mid Lace-Ups",
-    description: ` a perfect blend of style and comfort for the modern individual. These sophisticated mid-height lace-up shoes are crafted with meticulous attention to detail, ensuring both durability and a fashion-forward aesthetic.`,
-    price: 98000,
-    image:
-      "https://images.timberland.com/is/image/TimberlandEU/A2JGD269-hero?wid=720&hei=720&fit=constrain,1&qlt=85,1&op_usm=1,1,6,0",
-    images: [
-      "https://images.timberland.com/is/image/TimberlandEU/A2JGD269-hero?wid=720&hei=720&fit=constrain,1&qlt=85,1&op_usm=1,1,6,0",
-      "https://images.timberland.com/is/image/TimberlandEU/A2JGD269-alt1?wid=720&hei=720&fit=constrain,1&qlt=85,1&op_usm=1,1,6,0",
-      "https://images.timberland.com/is/image/TimberlandEU/A2JGD269-alt2?wid=720&hei=720&fit=constrain,1&qlt=85,1&op_usm=1,1,6,0",
-      "https://images.timberland.com/is/image/TimberlandEU/A2JGD269-alt3?wid=720&hei=720&fit=constrain,1&qlt=85,1&op_usm=1,1,6,0",
-    ],
-    sizes: ["one-size"],
-    categories: ["shoes"],
-    colors: ["pink"],
-    currency: "GBP",
-  },
-  {
-    id: "64da6006-a4bb-4555-af78-3467853eb75e",
-    sku: "CRUSH_MEDIUM_1",
-    name: "CRUSH MEDIUM TOTE BAG DENIM IN BLUE",
-    description: `Meet your new favorite carry-on. Our supersized bag is crafted in durable waxed cotton canvas that's rugged and durable, ideal for hauling all of your stuff. This size takes you to and from the farmer's market, the gym or a weekend getaway.`,
-    price: 16800, // price in smallest currency unit (e.g. cent for GBP)
-    image:
-      "https://balenciaga.dam.kering.com/m/3b767ed19b21ef7e/Large-7429422AAYA4661_F.jpg?v=2",
-    images: [
-      "https://balenciaga.dam.kering.com/m/3b767ed19b21ef7e/Large-7429422AAYA4661_F.jpg?v=2",
-      "https://balenciaga.dam.kering.com/m/40f4296c7c99bb6b/Large-7429422AAYA4661_J.jpg?v=2",
-      "https://balenciaga.dam.kering.com/m/7c9f00cda8b3fde5/Large-7429422AAYA4661_I.jpg?v=28",
-     // "https://www.abbottlyon.com/cdn/shop/products/CanvasToteBag_BlackStraps_AA_2_503e9eae-012d-4d51-8978-9236dc4fd30e_935x1056_crop_center.jpg?v=1688719507",
-    ],
-    sizes: ["one-size"],
-    categories: ["bags"],
-    colors: ["brown"],
-    currency: "GBP",
-  },
-  {
-    id: "8d1a33a5-5650-4bd7-bb70-ba4670090700",
-    sku: "WOMEN'S MONACO SMALL CHAIN BAG METALLIZED IN GOLD",
-    name: "WOMEN'S MONACO SMALL CHAIN BAG METALLIZED IN GOLD",
-    description: `Meet your new favorite carry-on. Our supersized tote is crafted in durable waxed cotton canvas that's rugged and durable, ideal for hauling all of your stuff. This size takes you to and from the farmer's market, the gym or a weekend getaway.`,
-    price: 19500,
-    image:
-      "https://balenciaga.dam.kering.com/m/2b5d4d500f173926/Large-7659662AAYY8018_F.jpg?v=2",
-    images: [
-      "https://balenciaga.dam.kering.com/m/2b5d4d500f173926/Large-7659662AAYY8018_F.jpg?v=2",
-      "https://balenciaga.dam.kering.com/m/37280ebcfd1d91f8/Large-7659662AAYY8018_J.jpg?v=2",
-      "https://balenciaga.dam.kering.com/m/188929c2381be1f/Large-7659662AAYY8018_I.jpg?v=1",
-      "https://balenciaga.dam.kering.com/m/2387a3cd183c57f9/Large-7659662AAYY8018_D.jpg?v=2"
-    ],
-    sizes: ["one-size"],
-    categories: ["bags"],
-    colors: ["blue"],
-    currency: "GBP",
-  },
+ 
+  
+
   {
     id: "e882fe48-253c-40fb-8155-51b47b063c1a",
     sku: "braided_leather_belt_1",
@@ -215,6 +161,62 @@ export const inventory: InventoryProduct[] = [
     categories: ["sunglasses"],
     colors: ["black"],
     currency: "GBP",
-  }
- 
+  },
+  {
+    id: "fghjkl9d-97c3-47bb-9172-4ea74b0s25dfs",
+    sku: "Greyfield Mid Lace-Ups",
+    name: "Greyfield Mid Lace-Ups",
+    description: ` a perfect blend of style and comfort for the modern individual. These sophisticated mid-height lace-up shoes are crafted with meticulous attention to detail, ensuring both durability and a fashion-forward aesthetic.`,
+    price: 98000,
+    image:
+      "https://images.timberland.com/is/image/TimberlandEU/A2JGD269-hero?wid=720&hei=720&fit=constrain,1&qlt=85,1&op_usm=1,1,6,0",
+    images: [
+      "https://images.timberland.com/is/image/TimberlandEU/A2JGD269-hero?wid=720&hei=720&fit=constrain,1&qlt=85,1&op_usm=1,1,6,0",
+      "https://images.timberland.com/is/image/TimberlandEU/A2JGD269-alt1?wid=720&hei=720&fit=constrain,1&qlt=85,1&op_usm=1,1,6,0",
+      "https://images.timberland.com/is/image/TimberlandEU/A2JGD269-alt2?wid=720&hei=720&fit=constrain,1&qlt=85,1&op_usm=1,1,6,0",
+      "https://images.timberland.com/is/image/TimberlandEU/A2JGD269-alt3?wid=720&hei=720&fit=constrain,1&qlt=85,1&op_usm=1,1,6,0",
+    ],
+    sizes: ["one-size"],
+    categories: ["shoes"],
+    colors: ["pink"],
+    currency: "GBP",
+  },
+  {
+    id: "64da6006-a4bb-4555-af78-3467853eb75e",
+    sku: "CRUSH_MEDIUM_1",
+    name: "CRUSH MEDIUM TOTE BAG DENIM IN BLUE",
+    description: `Meet your new favorite carry-on. Our supersized bag is crafted in durable waxed cotton canvas that's rugged and durable, ideal for hauling all of your stuff. This size takes you to and from the farmer's market, the gym or a weekend getaway.`,
+    price: 16800, // price in smallest currency unit (e.g. cent for GBP)
+    image:
+      "https://balenciaga.dam.kering.com/m/3b767ed19b21ef7e/Large-7429422AAYA4661_F.jpg?v=2",
+    images: [
+      "https://balenciaga.dam.kering.com/m/3b767ed19b21ef7e/Large-7429422AAYA4661_F.jpg?v=2",
+      "https://balenciaga.dam.kering.com/m/40f4296c7c99bb6b/Large-7429422AAYA4661_J.jpg?v=2",
+      "https://balenciaga.dam.kering.com/m/7c9f00cda8b3fde5/Large-7429422AAYA4661_I.jpg?v=28",
+     // "https://www.abbottlyon.com/cdn/shop/products/CanvasToteBag_BlackStraps_AA_2_503e9eae-012d-4d51-8978-9236dc4fd30e_935x1056_crop_center.jpg?v=1688719507",
+    ],
+    sizes: ["one-size"],
+    categories: ["bags"],
+    colors: ["brown"],
+    currency: "GBP",
+  },
+  {
+    id: "8d1a33a5-5650-4bd7-bb70-ba4670090700",
+    sku: "WOMEN'S MONACO SMALL CHAIN BAG METALLIZED IN GOLD",
+    name: "WOMEN'S MONACO SMALL CHAIN BAG METALLIZED IN GOLD",
+    description: `Meet your new favorite carry-on. Our supersized tote is crafted in durable waxed cotton canvas that's rugged and durable, ideal for hauling all of your stuff. This size takes you to and from the farmer's market, the gym or a weekend getaway.`,
+    price: 19500,
+    image:
+      "https://balenciaga.dam.kering.com/m/2b5d4d500f173926/Large-7659662AAYY8018_F.jpg?v=2",
+    images: [
+      "https://balenciaga.dam.kering.com/m/2b5d4d500f173926/Large-7659662AAYY8018_F.jpg?v=2",
+      "https://balenciaga.dam.kering.com/m/37280ebcfd1d91f8/Large-7659662AAYY8018_J.jpg?v=2",
+      "https://balenciaga.dam.kering.com/m/188929c2381be1f/Large-7659662AAYY8018_I.jpg?v=1",
+      "https://balenciaga.dam.kering.com/m/2387a3cd183c57f9/Large-7659662AAYY8018_D.jpg?v=2"
+    ],
+    sizes: ["one-size"],
+    categories: ["bags"],
+    colors: ["blue"],
+    currency: "GBP",
+  },
 ]
