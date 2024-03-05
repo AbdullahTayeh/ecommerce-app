@@ -23,6 +23,25 @@ export interface SanityProduct extends Omit<InventoryProduct, "images"> {
 
 export const inventory: InventoryProduct[] = [
   {
+    id: "fghjkl9d-97c3-47bb-9172-4ea74b0s25dfs",
+    sku: "Greyfield Mid Lace-Ups",
+    name: "Greyfield Mid Lace-Ups",
+    description: ` a perfect blend of style and comfort for the modern individual. These sophisticated mid-height lace-up shoes are crafted with meticulous attention to detail, ensuring both durability and a fashion-forward aesthetic.`,
+    price: 98000,
+    image:
+      "https://images.timberland.com/is/image/TimberlandEU/A2JGD269-hero?wid=720&hei=720&fit=constrain,1&qlt=85,1&op_usm=1,1,6,0",
+    images: [
+      "https://images.timberland.com/is/image/TimberlandEU/A2JGD269-hero?wid=720&hei=720&fit=constrain,1&qlt=85,1&op_usm=1,1,6,0",
+      "https://images.timberland.com/is/image/TimberlandEU/A2JGD269-alt1?wid=720&hei=720&fit=constrain,1&qlt=85,1&op_usm=1,1,6,0",
+      "https://images.timberland.com/is/image/TimberlandEU/A2JGD269-alt2?wid=720&hei=720&fit=constrain,1&qlt=85,1&op_usm=1,1,6,0",
+      "https://images.timberland.com/is/image/TimberlandEU/A2JGD269-alt3?wid=720&hei=720&fit=constrain,1&qlt=85,1&op_usm=1,1,6,0",
+    ],
+    sizes: ["one-size"],
+    categories: ["shoes"],
+    colors: ["pink"],
+    currency: "GBP",
+  },
+  {
     id: "64da6006-a4bb-4555-af78-3467853eb75e",
     sku: "CRUSH_MEDIUM_1",
     name: "CRUSH MEDIUM TOTE BAG DENIM IN BLUE",
@@ -196,24 +215,6 @@ export const inventory: InventoryProduct[] = [
     categories: ["sunglasses"],
     colors: ["black"],
     currency: "GBP",
-  },
-  {
-    id: "fghjkl9d-97c3-47bb-9172-4ea74b0s25df",
-    sku: "dock_sunglasses_1",
-    name: "Greyfield Mid Lace-Ups",
-    description: ` a perfect blend of style and comfort for the modern individual. These sophisticated mid-height lace-up shoes are crafted with meticulous attention to detail, ensuring both durability and a fashion-forward aesthetic.`,
-    price: 20000,
-    image:
-      "https://images.timberland.com/is/image/TimberlandEU/A2JGD269-hero?wid=720&hei=720&fit=constrain,1&qlt=85,1&op_usm=1,1,6,0",
-    images: [
-      "https://images.timberland.com/is/image/TimberlandEU/A2JGD269-hero?wid=720&hei=720&fit=constrain,1&qlt=85,1&op_usm=1,1,6,0",
-      "https://images.timberland.com/is/image/TimberlandEU/A2JGD269-alt1?wid=720&hei=720&fit=constrain,1&qlt=85,1&op_usm=1,1,6,0",
-      "https://images.timberland.com/is/image/TimberlandEU/A2JGD269-alt2?wid=720&hei=720&fit=constrain,1&qlt=85,1&op_usm=1,1,6,0",
-      "https://images.timberland.com/is/image/TimberlandEU/A2JGD269-alt3?wid=720&hei=720&fit=constrain,1&qlt=85,1&op_usm=1,1,6,0",
-    ],
-    sizes: ["one-size"],
-    categories: ["shoes"],
-    colors: ["white"],
-    currency: "GBP",
   }
+ 
 ]

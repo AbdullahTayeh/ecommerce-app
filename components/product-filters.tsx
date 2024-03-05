@@ -44,7 +44,7 @@ const filters = [
       { value: "brown", label: "Brown" },
       { value: "green", label: "Green" },
       { value: "yellow", label: "Yellow" },
-      { value: "white", label: "White" }
+      { value: "pink", label: "Pink" }
     ],
   },
 ]
